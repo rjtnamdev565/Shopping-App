@@ -1,0 +1,139 @@
+.root {
+  display: flex;
+  max-width: 80%;
+  height: 80vh;
+  /* justify-content:center;
+    align-content: center; */
+  color: black;
+  padding: 5%;
+  /* gap: 15%; */
+  margin-left: 14rem;
+  border-color: rgb(48, 45, 45);
+  border-bottom: 2;
+  border: 2px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50%;
+  }
+
+.image {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  /* margin-bottom: 10px; */
+}
+
+.image img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-image: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.thumbnell {
+  display: flex;
+  max-width: 70%;
+}
+
+.thumbnell img {
+  position: relative;
+  width: 20%;
+  height: 20%;
+  border-image: 0;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 30%;
+  gap: 3%;
+}
+
+.details span {
+  font-size: 12px;
+  color: orange;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.dspan {
+  font-size: 12px;
+  color: rgb(104, 102, 102);
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.details p {
+  font-size: 12px;
+  color: rgb(104, 102, 102);
+  margin-bottom: 20px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 3%;
+}
+
+.price h6 {
+  color: orange;
+  background-color: rgb(246, 234, 213);
+}
+
+.btn-container {
+  display: flex;
+  align-content: center;
+  padding: 3%;
+}
+
+.divButton {
+  display: inline;
+  background-color: aliceblue;
+  width: 30%;
+  text-align: center;
+  color: black;
+}
+
+.divButton button {
+  border: 0;
+  background-color: aliceblue;
+  padding: 2%;
+  margin: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 20%;
+  color: hsl(26, 100%, 55%);
+}
+
+.cartButton {
+  display: inline;
+  width: 80%;
+}
+
+.cartButton button {
+  margin-left: 20px;
+  width: 70%;
+  padding: 5%;
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+}
+.prev{
+  top:20px
+
+}
